@@ -7,8 +7,19 @@
     </div>
     <div class="section">
       <h2 class="text-2xl">BaseButton</h2>
-      <p>Props: type, color, rounded, variant, block, to, href, size, shadow</p>
-      <BaseButton>Base Button</BaseButton>
+      <code>
+        Props: type, color, rounded, variant, block, to, href, size, shadow
+      </code>
+      <div class="flex space-x-2 mt-1">
+        <BaseButton>Default</BaseButton>
+        <BaseButton color="primary">Primary</BaseButton>
+        <BaseButton color="secondary">Secondary</BaseButton>
+        <BaseButton color="warning">Warning</BaseButton>
+        <BaseButton color="error">Error</BaseButton>
+        <BaseButton color="success">Success</BaseButton>
+        <BaseButton color="light">Light</BaseButton>
+        <BaseButton color="dark">Dark</BaseButton>
+      </div>
     </div>
   </div>
 </template>
